@@ -14,10 +14,10 @@ app.use(methodOverride('_method'));
 app.engine('handlebars', expressHandlebars({
     defaultLayout: 'main'
 }));
-app.set('view emgine', 'handlebars');
+app.set('view engine', 'handlebars');
 
 var routes = require('./controllers/burgers_controllers');
-app.use('/', routes);
+app.use(routes);
 
 var port = 3000;
 app.listen(port);
