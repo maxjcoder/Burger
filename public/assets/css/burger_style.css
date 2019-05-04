@@ -5,6 +5,30 @@ html, body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+
+.jumbotron {
+  background-image: url(../img/tileable_wood_texture.png);
+  text-align: center;
+  font-family: 'Wendy One', sans-serif;
+  font-size: 34px;
+}
+
+#title {
+  color: chocolate;
+  width: 100%;
+  display:inline-block;
+  border-radius: 10px;
+  background-color: lightblue;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+#title:hover{
+  border : 2px solid grey;
+  box-shadow: 9px 10px #888888;  
+  font-weight: bold;
+}
+
 @media only screen and (max-width : 992px) {
     html, body {
     height: 150%;
