@@ -5,7 +5,6 @@ html, body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-
 .jumbotron {
   background-image: url(../img/tileable_wood_texture.png);
   text-align: center;
@@ -27,6 +26,25 @@ html, body {
   border : 2px solid grey;
   box-shadow: 9px 10px #888888;  
   font-weight: bold;
+}
+
+#devour-it:hover {
+  border: 2px solid grey;
+}
+
+#devoured:hover {
+  border: 2px solid grey;
+}
+
+#order-label {
+  background-image: url(../img/gingham.jpg);
+  color: chocolate;
+  font-family: 'Wendy One', sans-serif;
+  font-weight: 150;
+  font-size: 34px;
+  border-radius: 10px;
+  padding: 5px;
+  padding-bottom: 10px;
 }
 
 @media only screen and (max-width : 992px) {
