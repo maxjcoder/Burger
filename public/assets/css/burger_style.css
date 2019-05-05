@@ -56,6 +56,11 @@ html, body {
   font-size: 10px;
 }
 
+#plate, #compliments {
+  text-align: center;
+  font-weight: bold;
+}
+
 #portfolio {
   background-image: url(../img/tileable_wood_texture.png);
   color: chocolate;

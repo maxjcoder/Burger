@@ -47,6 +47,8 @@
     <div class="col-sm-6">
         <div class="card" id="devour-it">
             <div class="card-body">
+            <p id="plate">MY PLATE</p>
+            <hr>
                 {{#each burger_data}}
                 {{#unless this.devoured}}
                 <div class="col-sm-12 text center">
@@ -69,6 +71,8 @@
     <div class="col-sm-6">
         <div class="card" id="devoured">
             <div class="card-body">
+            <p id="compliments">MY COMPLIMENTS TO THE CHEF</p>
+            <hr>
                 {{#each burger_data}}
                 {{#if this.devoured}}
                 <input class="form-control" type="text" placeholder="{{this.id}}. {{this.burger_name}}" readonly>
