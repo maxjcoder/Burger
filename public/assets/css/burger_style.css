@@ -28,6 +28,7 @@ html, body {
   font-weight: bold;
 }
 
+
 #devour-it:hover {
   border: 2px solid grey;
 }
@@ -45,6 +46,22 @@ html, body {
   border-radius: 10px;
   padding: 5px;
   padding-bottom: 10px;
+}
+
+#enter_text {
+  border: 2px solid grey;
+}
+
+#credit {
+  font-size: 10px;
+}
+
+#portfolio {
+  background-image: url(../img/tileable_wood_texture.png);
+  color: chocolate;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 @media only screen and (max-width : 992px) {

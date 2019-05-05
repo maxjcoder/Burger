@@ -3,7 +3,9 @@
         <div class="col-md-12">
             <div class="row">
                 <div id="title">
-                    <a href="https://www.google.com/search?q=what+is+a+hamburger%3F&rlz=1C1GGRV_enUS821US821&oq=wh&aqs=chrome.0.69i59l2j69i60j69i61j69i57j69i60.2857j0j7&sourceid=chrome&ie=UTF-8" target="_blank" title="click me to learn more about hamburgers!"><img src="/assets/img/burger.png" alt="hambuger image"></a>
+                    <a href="https://www.google.com/search?q=what+is+a+hamburger%3F&rlz=1C1GGRV_enUS821US821&oq=wh&aqs=chrome.0.69i59l2j69i60j69i61j69i57j69i60.2857j0j7&sourceid=chrome&ie=UTF-8"
+                        target="_blank" title="click me to learn more about hamburgers!"><img
+                            src="/assets/img/burger.png" alt="hambuger image"></a>
                     <hr>
                     <h1></h1>EAT DA BURGER!</h1>
                     <hr>
@@ -24,8 +26,15 @@
                         <br>
                         <input type="text" name="burger_name" class="form-control" value="" id="enter_text">
                         <br>
-                        <button type="submit" class="btn btn-primary" id="text-enter-button">PLACE YOUR ORDER HERE</button>
+                        <button type="submit" class="btn btn-primary" id="text-enter-button">PLACE YOUR ORDER
+                            HERE</button>
                     </form>
+                    <br>
+                    <div id="credit">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+                        from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
+                            href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
+                            target="_blank">CC 3.0 BY</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -34,42 +43,54 @@
 
 <br>
 
-<div class="card" id="devour-it">
-    <div class="card-body">
-        <div class="col-xs-12 text-center" class="task">
-            <div class="row">
+<div class="row">
+    <div class="col-sm-6">
+        <div class="card" id="devour-it">
+            <div class="card-body">
                 {{#each burger_data}}
                 {{#unless this.devoured}}
-                <div class="col-xs-12 text center">
+                <div class="col-sm-12 text center">
                     <pre>{{this.id}}.{{this.burger_name}}</pre>
+                    <br>
                 </div>
-                <div class="col-xs-12 text-center">
+                <div class="col-sm-12 text-left">
                     <form method="POST" action="/burgers/update?_method=PUT" class="button-size">
                         <input type="hidden" name="burger_id" type="text" value={{this.id}}>
-                        <br>
                         <button type="submit" class="btn btn-primary btn-sm">DEVOUR IT!</button>
                     </form>
+                    <hr>
                 </div>
                 {{/unless}}
                 {{/each}}
             </div>
         </div>
     </div>
-</div>
 
-<div class="card" id="devoured">
-    <div class="card-body">
-        <div class="col-xs-12 text-center" class="task">
-            {{#each burger_data}}
-            {{#if this.devoured}}
-            <input class="form-control" type="text" placeholder="{{this.id}}. {{this.burger_name}}" readonly>
-            {{/if}}
-            {{/each}}
+    <div class="col-sm-6">
+        <div class="card" id="devoured">
+            <div class="card-body">
+                {{#each burger_data}}
+                {{#if this.devoured}}
+                <input class="form-control" type="text" placeholder="{{this.id}}. {{this.burger_name}}" readonly>
+                {{/if}}
+                {{/each}}
+            </div>
         </div>
     </div>
 </div>
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
-        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a
-        href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
-</div>
+<br>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card" id="portfolio">
+                <div class="card-body">
+                    <h5 class="card-title">Visit my portfolio:</h5>
+                    <hr>
+                    <p class="card-text">My name is Max Jackson and I am a web developer in the making.</p>
+                    <br>
+                    <a href="https://maxjcoder.github.io/Bootstrap-Portfolio/index.html" title="Max Jackson's Web Dev. Portfolio"
+                        target="_blank" class="btn btn-primary">Portfolio</a>
+                </div>
+            </div>
+        </div>
