@@ -44,9 +44,9 @@ This full-stack application utilizes Model/View/Controller (MVC). Controller han
 
 
 ## npm Packages: 
-* [Express] (https://www.npmjs.com/package/express) - Fast, unopinionated, minimalist web framework for node to handle routing.
-* [Express-Handlebars] (https://www.npmjs.com/package/express-handlebars) - A view engine that utilizes logicless Mustache templating language for Express that keep the view and the code separated.
-* [mysql] (https://www.npmjs.com/package/mysql) - A Node.js module driver for MySQL databases.
+* [Express](https://www.npmjs.com/package/express) - Fast, unopinionated, minimalist web framework for node to handle routing.
+* [Express-Handlebars](https://www.npmjs.com/package/express-handlebars) - A view engine that utilizes logicless Mustache templating language for Express that keep the view and the code separated.
+* [mysql](https://www.npmjs.com/package/mysql) - A Node.js module driver for MySQL databases.
 * [Body-Parser](https://www.npmjs.com/package/body-parser) - Middleware - It parses your incoming request, assembles the chunks containing your form data, then creates this body object filled it with your form data.
 * [Method-Override](https://www.npmjs.com/package/method-override) - Middleware - Lets you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it.
 
