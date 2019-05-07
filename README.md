@@ -1,9 +1,10 @@
 # Burger
-This app logs data with My SQL, Node, Express, Handlebars and a home made ORM. It follows the MVC design pattern and utilizes Node and MySQL to query and route data and Handlebars to generate HTML
+Welcome friends to my food truck, Burger!  We're so hip that one name says it all.  You must be famished, so lets get you fed...
 
 
 ## Code Overview 
 This full-stack application utilizes Model/View/Controller (MVC). Controller handls the logic between model or the application database core and View to dynamically render HTML content in response to the user interaction. I used Node.js, Express.js, and Handlebars to work with the logic and to route user requests to MySQL database through Object Relational Mapping (ORM) technique to retrive information and dynamically build HTML pages to display the content back to the user. To run server code, the app has been deployed live on Heroku. 
+
 
 ## HOW IT WORKS
 
@@ -14,7 +15,6 @@ This full-stack application utilizes Model/View/Controller (MVC). Controller han
 ### Click 'Devour it' to virtually "eat da burger"
 
 ### The "devoured" burger will then list under 'My compliments to the chef'
-
 
 -----------------------------------------
 
@@ -43,7 +43,7 @@ This full-stack application utilizes Model/View/Controller (MVC). Controller han
 * Heroku deployment
 
 
-## npm packages: 
+## npm Packages: 
 * [Express] (https://www.npmjs.com/package/express) - Fast, unopinionated, minimalist web framework for node to handle routing.
 * [Express-Handlebars] (https://www.npmjs.com/package/express-handlebars) - A view engine that utilizes logicless Mustache templating language for Express that keep the view and the code separated.
 * [mysql] (https://www.npmjs.com/package/mysql) - A Node.js module driver for MySQL databases.
@@ -51,7 +51,7 @@ This full-stack application utilizes Model/View/Controller (MVC). Controller han
 * [Method-Override](https://www.npmjs.com/package/method-override) - Middleware - Lets you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it.
 
 
-#### Directory structure
+#### Directory Structure
 
 All the recommended files and directories should look like the following structure:
 
@@ -103,7 +103,7 @@ All the recommended files and directories should look like the following structu
 ```
 
 ## Author
-* Max M. Jackson
+* Max M. Jackson, M.Ed.
 * Click on the deployed app on Heroku!
 https://tranquil-island-49159.herokuapp.com/
 
