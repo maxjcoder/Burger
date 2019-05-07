@@ -28,6 +28,11 @@ This full-stack application utilizes Model/View/Controller (MVC). Controller han
 * [Express-Handlebars] (https://www.npmjs.com/package/express-handlebars) - A view engine that utilizes logicless Mustache templating language for Express that keep the view and the code separated.
 * [mysql] (https://www.npmjs.com/package/mysql) - A Node.js module driver for MySQL databases.
 
+
+#### Directory structure
+
+All the recommended files and directories should look like the following structure:
+
 ```
 .
 ├── config
