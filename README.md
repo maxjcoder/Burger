@@ -1,8 +1,27 @@
 # Burger
 This app logs data with My SQL, Node, Express, Handlebars and a home made ORM. It follows the MVC design pattern and utilizes Node and MySQL to query and route data and Handlebars to generate HTML
 
+
 ## Code Overview 
 This full-stack application utilizes Model/View/Controller (MVC). Controller handls the logic between model or the application database core and View to dynamically render HTML content in response to the user interaction. I used Node.js, Express.js, and Handlebars to work with the logic and to route user requests to MySQL database through Object Relational Mapping (ORM) technique to retrive information and dynamically build HTML pages to display the content back to the user. To run server code, the app has been deployed live on Heroku. 
+
+## HOW IT WORKS
+
+### Enter a burger of your choice into the field and click 'Place your order'.
+
+### Your burger choice will move down to 'My Plate' 
+
+### Click 'Devour it' to virtually "eat da burger"
+
+### The "devoured" burger will then list under 'My compliments to the chef'
+
+
+-----------------------------------------
+
+## SEE THE WORKING CODE 
+
+### Video File
+
 
 ## Built with or topics covered
 * HTML5
@@ -23,10 +42,13 @@ This full-stack application utilizes Model/View/Controller (MVC). Controller han
 * MySQL/JawsDB
 * Heroku deployment
 
+
 ## npm packages: 
 * [Express] (https://www.npmjs.com/package/express) - Fast, unopinionated, minimalist web framework for node to handle routing.
 * [Express-Handlebars] (https://www.npmjs.com/package/express-handlebars) - A view engine that utilizes logicless Mustache templating language for Express that keep the view and the code separated.
 * [mysql] (https://www.npmjs.com/package/mysql) - A Node.js module driver for MySQL databases.
+* [Body-Parser](https://www.npmjs.com/package/body-parser) - Middleware - It parses your incoming request, assembles the chunks containing your form data, then creates this body object filled it with your form data.
+* [Method-Override](https://www.npmjs.com/package/method-override) - Middleware - Lets you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it.
 
 
 #### Directory structure
@@ -80,3 +102,15 @@ All the recommended files and directories should look like the following structu
 
 ```
 
+## Author
+* Max M. Jackson
+* Click on the deployed app on Heroku!
+https://tranquil-island-49159.herokuapp.com/
+
+* Click on the GitHub link to view code!
+https://github.com/maxjcoder/Burger
+
+
+-----------------------------------------
+
+##### My name is Max Jackson, and [I am a web developer in the making](https://maxjcoder.github.io/Bootstrap-Portfolio/index.html). (c) 2019
